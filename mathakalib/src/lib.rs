@@ -1,5 +1,7 @@
-pub fn add(left: usize, right: usize) -> usize {
-    left + right
+use anyhow::Result;
+
+pub fn solve_problems(props: String) -> Result<bool> {
+    Ok(true)
 }
 
 #[cfg(test)]
@@ -7,8 +9,7 @@ mod tests {
     use super::*;
 
     #[test]
-    fn it_works() {
-        let result = add(2, 2);
-        assert_eq!(result, 4);
+    fn test_solve_problems() {
+        assert_eq!(solve_problems("".to_owned()).ok(), Some(true));
     }
 }
