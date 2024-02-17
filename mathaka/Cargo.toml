@@ -2,7 +2,9 @@
 name = "mathaka"
 version = "0.1.0"
 edition = "2021"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+authors = ["akanevrc <akanezoranomukou@gmail.com>"]
+description = "Support and Solve Mathematical Proofs."
 
 [dependencies]
+anyhow = "1.0.79"
+mathakalib = { version = "0.1.0", path = "../mathakalib" }
