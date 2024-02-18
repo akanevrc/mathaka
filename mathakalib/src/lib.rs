@@ -1,3 +1,7 @@
+mod data;
+mod lexer;
+mod macros;
+
 use anyhow::Result;
 
 pub fn solve_problems(props: String) -> Result<bool> {
